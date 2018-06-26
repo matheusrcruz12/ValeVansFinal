@@ -5,6 +5,9 @@ package valevans.com.br.valevans.Model;
  */
 
 public class Instituicao {
+    public Instituicao(String nome) {
+        this.nome = nome;
+    }
 
     private String nome;
    // private String campus;
