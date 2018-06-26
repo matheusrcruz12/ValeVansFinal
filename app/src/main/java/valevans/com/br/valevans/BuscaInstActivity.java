@@ -47,6 +47,7 @@ public class BuscaInstActivity extends AppCompatActivity {
                 }else if(periodo.equals("Noite")){
                     pp = 03;
                 }
+                
 
                 if(bairro != null && inst != null && periodo!= null){
                     BancoDeDados bd2 = new BancoDeDados();
