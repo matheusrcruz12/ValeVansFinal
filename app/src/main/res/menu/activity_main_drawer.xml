@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_vans_inst"
+            android:icon="@drawable/ic_menu_search"
+            android:title="Buscar Vans para Instituições" />
+        <item
+            android:id="@+id/nav_vans_escola"
+            android:icon="@drawable/ic_menu_search"
+            android:title="Buscar Vans para Escolas" />
+        <item
+            android:id="@+id/nav_viagens_eventos"
+            android:icon="@drawable/ic_menu_mapmode"
+            android:title="Viagens / Eventos" />
+        <item
+            android:id="@+id/nav_encontrar_van"
+            android:icon="@drawable/ic_menu_mylocation"
+            android:title="Não Encontrou sua Van?" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
